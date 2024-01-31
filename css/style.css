@@ -140,6 +140,7 @@
     letter-spacing: 4px;
     text-transform: uppercase;
     line-height: 1.2;
+    margin-bottom: 20px; 
 }
 
 .primary-heading-bold {
@@ -149,6 +150,7 @@
 .paragraph {
     width: 50%;
     font-size: 18px;
+    margin-bottom: 20px;
 }
 
 .section-2-button {
@@ -157,6 +159,8 @@
     text-transform: uppercase;
     text-decoration: none;
     margin-top: 50px;
+    margin-top: 30px; 
+    display: inline-block;
 }
 
 .section-2-button:hover {
@@ -225,131 +229,11 @@
     }
 }
 
-/* SECTION NO 3 */
-
-.section-3 {
-    font-family: 'Roboto Slab', serif;
-    padding: 50px 0px 50px 0px;
-    position: relative;
-}
-
-.section-3-inner-col-left,
-.section-3-inner-col-right {
-    z-index: 1;
-}
-
-.section-3-heading {
-    text-transform: none;
-    letter-spacing: normal;
-    font-size: 68px;
-}
-
-.sec3-images {
-    box-shadow: 4px 8px 8px 2px rgba(0, 0, 0, 0.2);
-}
-
-.section-3-image-left {
-    margin-top: 60px;
-}
-
-.sec3-img-left,
-.sec3-img-right {
-    width: 550px;
-}
-
-.section-3-button-right {
-    margin-top: 40px;
-}
-
-.sec3-btn-right {
-    font-family: Roboto, sans-serif;
-    padding: 10px 30px;
-    border: 1px solid #000000;
-    color: #000000;
-    letter-spacing: 2px;
-    box-shadow: 3px 4px 2px rgba(0, 0, 0, 0.2);
-    background-color: transparent;
-    transition: all 0.5s ease;
-}
-
-.sec3-btn-right:hover {
-    color: #FFFFFF;
-    background-color: #000000;
-    transform: translateY(-5px);
-}
-
-.sec3-btn-right:active {
-    transform: translateY(0px);
-}
-
-.background-section-3 {
-    height: 300px;
-    width: 100%;
-    background-color: #E5E5E5;
-    position: absolute;
-    left: 0;
-    margin-top: -180px;
-}
-
-@media (max-width: 768px) {
-    .section-3-heading {
-        font-size: 48px;
-    }
-}
-
-@media (max-width: 426px) {
-    .section-3 {
-        padding: 10px 0px;
-    }
-
-    .section-3-heading {
-        font-size: 32px;
-    }
-
-    .section-3-inner {
-        padding: 0px 20px;
-    }
-
-    .section-3-image-left {
-        margin-top: 30px;
-    }
-
-    .sec3-btn-right {
-        padding: 5px 18px;
-        letter-spacing: 1px;
-        font-size: 12px;
-    }
-
-    .background-section-3 {
-        height: 230px;
-        width: 100%;
-    }
-}
-
-@media (max-width: 320px) {
-    .section-3-heading {
-        font-size: 24px;
-    }
-
-    .section-3-button-right {
-        margin-top: 30px;
-    }
-
-    .sec3-btn-right {
-        padding: 5px 15px;
-        font-size: 10px;
-    }
-
-    .background-section-3 {
-        height: 200px;
-        width: 100%;
-    }
-}
 
 /*  SECTION NO 4 */
 
 .section-4 {
-    padding: 200px 0px 150px 0px;
+    padding: 100px 0px;
 }
 
 .section-4-left {
@@ -368,15 +252,16 @@
 }
 
 .section-4-right {
-    padding-right: 20%;
+    padding-right: 30%;
 }
 
 .sec4-blank {
-    height: 90px;
+    height: 140px;
 }
 
 .sec4-text {
     font-size: 18px;
+    text-align: justify;
 }
 
 @media (max-width: 991px) {
@@ -389,9 +274,6 @@
     }
 }
 
-.section-4-button {
-    margin-top: 40px;
-}
 
 .sec4-btn {
     font-family: Roboto, sans-serif;
@@ -1001,7 +883,7 @@
 }
 
 #contact-custom-button {
-    background-color: #3E64FF;
+    background-color: #000207;
     color: #FFFFFF;
     padding: 16px 60px;
     border-radius: 50px;
